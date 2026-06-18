@@ -1,0 +1,1 @@
+X=input();a='OABCDE';print(a.index(X))
