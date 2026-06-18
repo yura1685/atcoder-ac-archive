@@ -1,0 +1,1 @@
+print('Yes' if 3 <= int(input()) <= 18 else 'No')
