@@ -1,0 +1,1 @@
+hitachi = ['hi','hihi','hihihi','hihihihi','hihihihihi'];print('Yes'if input()in hitachi else'No')
