@@ -1,0 +1,1 @@
+c=input();r='OPKL';print('Right'if c in r else'Left')
