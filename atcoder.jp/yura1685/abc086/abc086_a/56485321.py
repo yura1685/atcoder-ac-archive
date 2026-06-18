@@ -1,0 +1,1 @@
+a,b=map(int,input().split());print('Even' if b%2==0 or a%2==0 else 'Odd')
