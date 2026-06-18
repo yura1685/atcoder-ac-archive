@@ -1,0 +1,5 @@
+N, A, B = map(int,input().split())
+D = sorted(int(d) % (A+B) for d in input().split())
+D.append(D[0]+A+B)
+M = max(D[i+1] - D[i] for i in range(N))
+print('Yes' if B < M else 'No')
