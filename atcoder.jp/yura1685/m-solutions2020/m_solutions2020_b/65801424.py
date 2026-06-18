@@ -1,0 +1,10 @@
+A, B, C = map(int,input().split())
+K = int(input())
+time = 0
+while B <= A:
+    B *= 2
+    time += 1
+while C <= B:
+    C *= 2
+    time += 1
+print('Yes' if time <= K else 'No')
