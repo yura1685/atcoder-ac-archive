@@ -1,0 +1,1 @@
+print("Success"if 199<int(input())<300 else"Failure")
