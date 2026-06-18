@@ -1,0 +1,8 @@
+N = int(input())
+r = input()
+a = r.count('A')
+b = r.count('B')
+c = r.count('C')
+d = r.count('D')
+GPA = (4*a+3*b+2*c+d)/len(r)
+print(GPA)
