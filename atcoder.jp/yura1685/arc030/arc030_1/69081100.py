@@ -1,0 +1,1 @@
+N=int(input());K=int(input());print('YNEOS'[K>N//2::2])
