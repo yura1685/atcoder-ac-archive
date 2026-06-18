@@ -1,0 +1,5 @@
+H, W, A, B = map(int, input().split())
+L1 = ''.join(['1' if w < A else '0' for w in range(W)])
+L2 = ''.join(['0' if w < A else '1' for w in range(W)])
+for _ in range(B):   print(L1)
+for _ in range(H-B): print(L2)
