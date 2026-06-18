@@ -1,0 +1,5 @@
+N = input()
+n = len(N)
+ans = int(N[0])-1 + 9*(n-1)
+hoge = sum([int(i) for i in N])
+print(max(ans,hoge))
