@@ -1,0 +1,5 @@
+N, M = map(int,input().split())
+A = list(map(int,input().split()))
+ans = [M]*N
+for a in A: ans[a-1] -= 1
+for i in range(N): print(ans[i])
