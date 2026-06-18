@@ -11,7 +11,7 @@ on:
 jobs:
   update:
     name: "Update"
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
 
     if: github.repository != 'ivgtr/atcoder-ac-archive' # DO NOT RUN in ivgtr/atcoder-ac-archive
     steps:
