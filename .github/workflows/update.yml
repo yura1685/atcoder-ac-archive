@@ -16,9 +16,9 @@ jobs:
     if: github.repository != 'ivgtr/atcoder-ac-archive' # DO NOT RUN in ivgtr/atcoder-ac-archive
     steps:
       - name: checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: setup Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: 14
       - name: Install
